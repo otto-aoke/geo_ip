@@ -15,9 +15,9 @@ Gem::Specification.new do |s|
   s.test_files    = Dir.glob('spec/**/*')
   s.require_paths = ['lib']
 
-  s.add_dependency 'json', '~> 1.4'
-  s.add_dependency 'rest-client', '~> 1.6'
+  s.add_dependency 'json', '>= 1.4'
+  s.add_dependency 'rest-client', '>= 1.6'
   s.add_development_dependency 'rake'
-  s.add_development_dependency 'rspec', '~> 2.5'
+  s.add_development_dependency 'rspec', '>= 2.5'
   s.add_development_dependency 'webmock', '~> 1.7.10'
 end
